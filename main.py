@@ -92,7 +92,7 @@ def main():
         if optiune == "2":
              m = input("Introduce-ti scara actuala(K , C , F): ")
              n = input("Introduce-ti scara in care vreti sa transformati(K, C, F): ")
-             p = int(input("Introduce-ti temperatura pe care doriti sa o transformati: "))
+             p = int(float(input("Introduce-ti temperatura pe care doriti sa o transformati: ")))
              print(get_temp(p, m, n))
         if optiune == "3":
             n = int(input("Dati-l pe n: "))
